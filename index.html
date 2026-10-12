@@ -34,41 +34,61 @@
                          <li>El servidor procesa la solicitud y devuelve una respuesta con los archivos necesarios (HTML, CSS, JavaScript, imágenes).</li>
                          <li>El navegador interpreta esos archivos y muestra la página al usuario.</li>
                       </ul>
-                    
-                      <!--Aquí irán las tablas que definen las páginas web estáticas y dinámicas-->
+
                       <h4>- Tipos de paginas web</h4>
-
-                      <table style="width:55%" cellspacing="0" cellpadding="5" border="1">
-
-                        <!--Encabezado de la tabla, aquí establecemos las columnas-->
-                        <tr>
-                          <th>Tipos de páginas web</th>
-                          <th>Descripción</th>
-                          <th>Ejemplos</th>
-                        </tr>
-
-                        <!--Filas de la tabla, aquí establecemos el contenido de cada columna-->
-                        <tr>
-                            <!--Contenido para páginas web estáticas-->
-                            <td>Estáticas</td>
-                            <td>Su contenido es fijo y se muestra igual a todos los usuarios, tal como fue escrito en los archivos HTML. Son rápidas y sencillas, pero para modificarlas hay que editar el código.</td>
-                            <td>Una página de presentación o un portafolio básico.</td>
-                        </tr>
-
-                        <tr>
-                            <!--Contenido para páginas web dinámicas-->
-                            <td>Dinámicas</td>
-                            <td>Generan su contenido en el servidor o en el navegador según la interacción del usuario, una base de datos o datos en tiempo real. Permiten inicio de sesión, formularios, carritos de compra y contenido personalizado.</td>
-                            <td>Una tienda en línea o una red social.</td>
-                        </tr>
-                      </table>
-                    <!--
-                      El contenido se ha comentado para que no se pierda la información.
                       <ul> 
                         <li><strong>Estáticas:</strong> su contenido es fijo y se muestra igual a todos los usuarios, tal como fue escrito en los archivos HTML. Son rápidas y sencillas, pero para modificarlas hay que editar el código. Ejemplo: una página de presentación o un portafolio básico. </li>
                         <li> <strong>Dinámicas:</strong> generan su contenido en el servidor o en el navegador según la interacción del usuario, una base de datos o datos en tiempo real. Permiten inicio de sesión, formularios, carritos de compra y contenido personalizado. Ejemplo: una tienda en línea o una red social. </li>
                       </ul>
-                    -->
+
+                      <table style="margin: 0 auto;" border="1">
+                            <thead>
+                                <tr>
+                                    <th>Aspecto</th>
+                                    <th>Sitio web</th>
+                                    <th>Aplicación web</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">Objetivo</td>
+                                    <td>Informar o presentar contenido</td>
+                                    <td>Realizar tareas y procesos</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Interacción</td>
+                                    <td>Baja (navegar, leer)</td>
+                                    <td>Alta (el usuario ingresa y procesa datos)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Autenticación</td>
+                                    <td>Generalmente no requerida</td>
+                                    <td>Normalmente requerida</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Ejemplos</td>
+                                    <td>Blog, página institucional</td>
+                                    <td>Gmail, sistema de conciliación bancaria, Google Docs</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <img src="https://desarrolladoresweb.org/wp-content/uploads/Desarrolladores-web.png" alt="Suiza"  width="300">
+
+                        <div>
+                            <iframe
+                                width="560"
+                                height="315" 
+                                src="https://www.youtube.com/embed/1jyC39vuJtw?si=laz75M53QHQ068n4" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                            </iframe>
+                            <p>Si el video no carga, <a href="https://youtu.be/1jyC39vuJtw?si=R6WuSQaJTqE4BvhJ" target="_blank">míralo directamente en YouTube</a>.</p>
+                        </div>
+
+                        <audio controls>
+                            <source src="audio/100tips.mp3" type="audio/mpeg">
+                            Tu navegador no soporta audio.
+                        </audio>
 
                 </div>
                 
@@ -85,28 +105,6 @@
         <div>
 
         </div>
-
-        <!--Formulario de inscripción-->
-        <hr>
-        <form>
-            <h4>Formulario de inscripción</h4>
-            <p>Por favor, llena el siguiente formulario para inscribirte en el curso de Desarrollo Web</p>
-            <input type="text" name="nombre" placeholder="Nombre"> <br> <br>
-            <input type="text" name="apellido" placeholder="Apellido"> <br> <br>
-            <input type="email" name="correo" placeholder="Correo electrónico"> <br> <br>
-            <input type="date" name ="fechaNAC" placeholder="Fecha de nacimiento"> <br> <br>
-            <input type="text" name ="cedula" placeholder="Cédula"> <br> <br>
-
-            <!--Opciones de radio para seleccionar la modalidad-->
-            <div>
-            <input type="radio" name ="modalidad" value="presencial"> Presencial <br> <br>
-            <input type="radio" name ="modalidad" value="virtual"> Virtual <br> <br>
-            </div>
-            
-            <!--Botones para inscribirse al curso y para resetear/limpiar el formulario-->
-            <button type="submit">Inscribirse</button> 
-            <button type="reset">Limpiar</button>
-        </form>
 
     </body>
 
