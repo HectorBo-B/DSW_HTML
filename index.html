@@ -11,7 +11,9 @@
         <!--En el cabezal se coloca el nombre y "logotipo" de la universidad 
         a la que pertenece el sitio-->
         <header>
-            <h1>Universidad Tecnológica del Istmo</h1>
+            <h1 style="text-align: center;" > Universidad Tecnológica del Istmo</h1>
+            <p style="text-align: center;" > introduccion al desarrollo web.</p>
+            <p> desarrollo web se aprenden los fundamentos para construir sitios y aplicaciones: la estructura de las páginas con HTML, su diseño visual y adaptabilidad con CSS, y la interactividad con JavaScript. También se abordan los conceptos básicos del modelo cliente-servidor, el funcionamiento del protocolo HTTP y las bases del desarrollo back-end y de bases de datos, para comprender cómo se conectan todas las partes de una aplicación web.</p>
 
         </header>
         <hr>
@@ -21,7 +23,23 @@
                 <!--Contenido principal-->
                 <div>
                     <h2>Desarrollo Web</h2>
-                    <p></p>
+                      <h4> - ¿Que es una pagina web?</h4>
+                      <p>Una página web es un documento digital, escrito principalmente en HTML y estilizado con CSS, que se almacena en un servidor y se visualiza mediante un navegador. Puede contener texto, imágenes, videos y enlaces a otras páginas.</p>
+
+                      <h4>- ¿Cómo funcionan?</h4>
+                      <p>Funcionan bajo el modelo <strong>cliente-servidor: </strong> <br>
+                        <ul>
+                         <li>El usuario escribe una dirección (URL) en el navegador (cliente)</li>
+                         <li>El navegador envía una solicitud HTTP/HTTPS al servidor que aloja la página.</li>
+                         <li>El servidor procesa la solicitud y devuelve una respuesta con los archivos necesarios (HTML, CSS, JavaScript, imágenes).</li>
+                         <li>El navegador interpreta esos archivos y muestra la página al usuario.</li>
+                      </ul>
+
+                      <h4>- Tipos de paginas web</h4>
+                      <ul> 
+                        <li><strong>Estáticas:</strong> su contenido es fijo y se muestra igual a todos los usuarios, tal como fue escrito en los archivos HTML. Son rápidas y sencillas, pero para modificarlas hay que editar el código. Ejemplo: una página de presentación o un portafolio básico. </li>
+                        <li> <strong>Dinámicas:</strong> generan su contenido en el servidor o en el navegador según la interacción del usuario, una base de datos o datos en tiempo real. Permiten inicio de sesión, formularios, carritos de compra y contenido personalizado. Ejemplo: una tienda en línea o una red social. </li>
+                      </ul>
 
                 </div>
                 
@@ -39,39 +57,9 @@
 
         </div>
 
-
-
-
-
-
-
-
-
-
-        <!--Formulario de inscripción-->
-        <form>
-            <h4>Formulario de inscripción</h4>
-            <p>Por favor, llena el siguiente formulario para inscribirte en el curso de Desarrollo Web</p>
-            <input type="text" name="nombre" placeholder="Nombre"> <br> <br>
-            <input type="text" name="apellido" placeholder="Apellido"> <br> <br>
-            <input type="email" name="correo" placeholder="Correo electrónico"> <br> <br>
-            <input type="date" name ="fechaNAC" placeholder="Fecha de nacimiento"> <br> <br>
-            <input type="text" name ="cedula" placeholder="Cédula"> <br> <br>
-
-            <!--Opciones de radio para seleccionar la modalidad-->
-            <div>
-            <input type="radio" name ="modalidad" value="presencial"> Presencial <br> <br>
-            <input type="radio" name ="modalidad" value="virtual"> Virtual <br> <br>
-            </div>
-            
-            <!--Botones para inscribirse al curso y para resetear/limpiar el formulario-->
-            <button type="submit">Inscribirse</button> 
-            <button type="reset">Limpiar</button>
-        </form>
-        
+    </body>
 
     <hr>
-    </body>
     <footer>
 
     </footer>
