@@ -50,12 +50,23 @@
 
         <!--Formulario de inscripción-->
         <form>
+            <h4>Formulario de inscripción</h4>
+            <p>Por favor, llena el siguiente formulario para inscribirte en el curso de Desarrollo Web</p>
             <input type="text" name="nombre" placeholder="Nombre"> <br> <br>
             <input type="text" name="apellido" placeholder="Apellido"> <br> <br>
             <input type="email" name="correo" placeholder="Correo electrónico"> <br> <br>
             <input type="date" name ="fechaNAC" placeholder="Fecha de nacimiento"> <br> <br>
-            <br>
+            <input type="text" name ="cedula" placeholder="Cédula"> <br> <br>
+
+            <!--Opciones de radio para seleccionar la modalidad-->
+            <div>
+            <input type="radio" name ="modalidad" value="presencial"> Presencial <br> <br>
+            <input type="radio" name ="modalidad" value="virtual"> Virtual <br> <br>
+            </div>
+            
+            <!--Botones para inscribirse al curso y para resetear/limpiar el formulario-->
             <button type="submit">Inscribirse</button> 
+            <button type="reset">Limpiar</button>
         </form>
         
 
